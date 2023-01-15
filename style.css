@@ -123,7 +123,7 @@ section.title-heading {
     margin-left: 240px;
     gap: 24px;
     padding: 20px;
-   
+
 }
 
 .feature-love-enjoy {
@@ -147,19 +147,15 @@ section.title-heading {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+
 }
 
 .feature-sub-title {
 
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
-
-    /* border: 1px solid wheat;
-    box-shadow: #992525;
-    margin-top: 30px;
-    padding-left: 20px; */
 }
 
 .feature-sub-title h3 p {
@@ -219,7 +215,7 @@ section.title-heading {
     font-size: 45px;
 }
 
-.fact-description  {
+.fact-description {
     font-weight: 400;
     font-size: 16px;
     text-align: justify;
@@ -227,4 +223,32 @@ section.title-heading {
     padding-top: 24px;
     width: 542px;
     height: 52px;
+}
+
+.fact-icon-container {
+    margin: 100px 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.fact-icon {
+    /* width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;    
+    margin-right: 124px;
+    padding: 50;*/
+
+    margin-left: 240px;
+    margin-top: 200px;
+    padding-bottom: 24px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    
+    
+
 }
