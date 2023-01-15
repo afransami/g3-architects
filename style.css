@@ -112,6 +112,7 @@ section.title-heading {
     align-items: center;
     justify-content: space-between;
     gap: 54px;
+    margin-top: 150px;
 }
 
 .love-enjoy-container {
@@ -121,27 +122,26 @@ section.title-heading {
     align-items: left;
     margin-left: 240px;
     gap: 24px;
+    padding: 20px;
+   
 }
 
 .feature-love-enjoy {
     width: 468px;
     height: 106px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
-.feature-love-enjoy-title {
-    padding-left: 20px;
+.feature-love-enjoy-title h1 {
+    border-left: 5px solid #FF900E;
     font-weight: 700;
     font-size: 45px;
-    margin-bottom: 15px;
-}
-
-.feature-sub-title {
-    margin-top: 30px;
-    padding-left: 24px;
+    padding-left: 20px;
+    padding-bottom: 15px;
 }
 
 .feature-description-first {
+    text-align: justify;
     margin-left: 0;
     color: #727272;
     font-weight: 400;
@@ -149,7 +149,28 @@ section.title-heading {
     line-height: 26px;
 }
 
+.feature-sub-title {
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 20px;
+
+    /* border: 1px solid wheat;
+    box-shadow: #992525;
+    margin-top: 30px;
+    padding-left: 20px; */
+}
+
+.feature-sub-title h3 p {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
 .feature-description {
+    text-align: justify;
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -157,10 +178,11 @@ section.title-heading {
 }
 
 
-.architect-section{
+.architect-section {
     display: flex;
+    flex-direction: column;
     align-items: center;
-
+    margin-top: 50px;
 }
 
 .exp-btn {
@@ -172,14 +194,37 @@ section.title-heading {
     border-radius: 8px;
     border: none;
 }
-.exp-btn h1{
+
+
+.exp-btn h1 {
     text-align: center;
     font-weight: 700;
     font-size: 65px;
 }
 
-
 .exp-title {
     font-weight: 500;
     font-size: 25px;
+}
+
+.fact-container {
+    margin-left: 240px;
+    margin-top: 200px;
+    padding-bottom: 24px;
+
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.fact-description  {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #727272;
+    padding-top: 24px;
+    width: 542px;
+    height: 52px;
 }
